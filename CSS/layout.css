@@ -1,0 +1,63 @@
+body, html{
+    margin: 0 px;
+    padding: 0 px;
+}
+header{
+    background-color: #1C5D99;
+    color:hotpink;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header .site_title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px 0px 15px; 
+    vertical-align: top; 
+    display: inline-block;
+
+}
+header ul{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+}
+
+header ul li{
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+    margin-right: 29px;
+}
+
+section{
+    padding: 10 px;
+}
+
+section#left_section{
+    float: left;
+    width: 70px;
+    height: 600px;
+    background-color: burlywood
+}
+
+section#right_section{
+    float: right;
+    width: 72%;
+}
+
+br{
+    clear:both;
+}
+footer{
+    min-height: 90%;
+    padding: 10px 20px;
+    background-color: khaki;
+    color: orchid;
+
+    text-align: right;
+}
+/*Use CTRL + ? with comments  */
